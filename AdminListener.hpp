@@ -104,6 +104,8 @@ public:
 	RunningTimer* desktopStatusTimer_;
 	RunningTimer* statusTimer_ ;
     RunningTimer* atrStatusTimer_ ;
+	RunningTimer* heartBeatTime_;
+	int hbInterval_;
 	
 	//rest timers
 	RunningTimer* restDesktopStatusTimer_;
